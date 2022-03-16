@@ -1,0 +1,19 @@
+s
+
+ 5
+-192200       0  5.97e+24   6378    blue    Terra
+      0       0  7.35e+22   1738   green      Lua
+      0 -192200  6.41e+23   3396     red    Marte
+      0  192200  3.30e+23   2439  magenta  Mercurio
+ 250000       0  5.68e+26  60268   orange  Saturno
+ 
+ 6
+ 100000       0   0      66000 blue      Leonardo
+-100000       0  4000   -66000 red       Raphael
+-310000 -290000  10000   10000 magenta   Donatello
+ 310000  290000 -45000  -10000 orange    Michelangelo
+-310000  290000  30000  -30000 white     Discovery
+ 310000 -290000 -45000   45000 green     Atlantis
+ 
+ 100          0.001
+

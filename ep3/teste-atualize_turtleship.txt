@@ -1,0 +1,98 @@
+﻿Este teste foi gerado no Python Shell do IDLE
+apÃ³s executar o ep3.py com a opÃ§Ã£o TESTE_FUNÃ‡Ã•ES = True
+
+# CONSTANTE que deve ser True enquanto as funÃ§Ãµes: 
+#      - crie_turtleship;                                   
+#      - crie_lista_turtleships;                            
+#      - atualize_turtleship; e                              
+#      - houve_colisÃ£o.
+# estiverem sendo testadas atravÃ©s do Python Shell
+TESTE_FUNÃ‡Ã•ES = True  # True faz com que a execuÃ§Ã£o do programa 
+                      # seja encerrada antes da leitura do arquivo.
+                      # Desta forma quando o programa estiver sendo 
+                      # executado no Idle as funÃ§Ãµes poderÃ£o ser
+                      # chamadas uma a uma atravÃ©s do Python Shell
+
+-----------------------------------------------------------------------------
+TESTE 1
+                     
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Python 3.3.0 (default, Sep 29 2012, 17:14:58) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+>>> lua, j = crie_astro(["0","0","7.35e+22","1738","green","Lua"],0)
+>>> j
+6
+>>> lua
+[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua']
+>>> lista_astros = [lua]
+>>> lista_astros
+[[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua']]
+>>> rafa, k =  crie_turtleship(["-100000","0","4000","-66000","red","Raphael"],0)
+>>> k
+6
+>>> rafa
+[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True]
+>>> atualize_turtleship(rafa,lista_astros,1)
+>>> rafa
+[[-95996.821125, -66000.0], [4006.35775, -66000.0], 'red', 'Raphael', True]
+>>> atualize_turtleship(rafa,lista_astros,1)
+>>> rafa
+[[-91988.53321272826, -131998.67296949585], [4010.218074543488, -65997.34593899168], 'red', 'Raphael', True]
+>>> atualize_turtleship(rafa,lista_astros,1)
+>>> rafa
+[[-87977.61300208382, -197995.01138037143], [4011.6223467454024, -65995.33088275949], 'red', 'Raphael', True]
+>>> 
+
+------------------------------------------------------------------------------
+TESTE 2
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Python 3.3.0 (default, Sep 29 2012, 17:14:58) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+>>> crie_lista_astros(["0","0","7.35e+22","1738","green","Lua",
+		       "0","-192200","6.41e+23","3396","red","Marte"],0,2)
+([[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua'], [[0.0, -192200.0], 6.41e+23, 3396.0, 'red', 'Marte']], 12)
+>>> 
+>>> lista_astros,i = crie_lista_astros(["0","0","7.35e+22","1738","green","Lua",
+		       "0","-192200","6.41e+23","3396","red","Marte"],0,2)
+>>> i
+12
+>>> lista_astros
+[[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua'], [[0.0, -192200.0], 6.41e+23, 3396.0, 'red', 'Marte']]
+>>> lista_astros[0]
+[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua']
+>>> lista_astros[1]
+[[0.0, -192200.0], 6.41e+23, 3396.0, 'red', 'Marte']
+>>> lista_astros[2]
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    lista_astros[2]
+IndexError: list index out of range
+>>> leo, k = crie_turtleship(["100000","0","0","66000","blue","Leonardo"],0)
+>>> leo
+[[100000.0, 0.0], [0.0, 66000.0], 'blue', 'Leonardo', True]
+>>> atualize_turtleship(leo,lista_astros,1)
+>>> leo
+[[99994.09517518694, 65994.7607244593], [-11.809649626120112, 65989.5214489186], 'blue', 'Leonardo', True]
+>>> atualize_turtleship(leo,lista_astros,1)
+>>> leo
+[[99979.13120164175, 131979.6901186935], [-18.118297464265666, 65980.33733954982], 'blue', 'Leonardo', True]
+>>> atualize_turtleship(leo,lista_astros,1)
+>>> leo
+[[99959.60280298728, 197956.80127992627], [-20.938499844647538, 65973.88498291568], 'blue', 'Leonardo', True]
+>>> atualize_turtleship(leo,lista_astros,0.1)
+>>> leo
+[[99957.50179774349, 204554.167452419], [-21.081605031341503, 65973.43846693891], 'blue', 'Leonardo', True]
+>>> 
+
+
+
+
+
+

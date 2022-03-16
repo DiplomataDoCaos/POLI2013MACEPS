@@ -1,0 +1,457 @@
+Este teste foi gerado no Python Shell do IDLE
+após executar o ep3.py com a opção TESTE_FUNÇÕES = False 
+e opção TESTE_SIMULE = True
+
+# CONSTANTE que deve ser True enquanto as funções: 
+#      - crie_turtleship;                                   
+#      - crie_lista_turtleships;                            
+#      - atualize_turtleship; e                              
+#      - houve_colisão.
+# estiverem sendo testadas através do Python Shell
+TESTE_FUNÇÕES = False # True faz com que a execução do programa 
+                      # seja encerrada antes da leitura do arquivo.
+                      # Desta forma quando o programa estiver sendo 
+                      # executado no Idle as funções poderão ser
+                      # chamadas uma a uma através do Python Shell
+                     
+
+# CONSTANTE que deve ser True enquando a função simule estiver 
+# sendo testada
+# ATENÇÃO: esta constante só pode ser True depois de todas as 
+# demais funções já terem sido feitas e testadas
+TESTE_SIMULE = True  # mostra a posição das turtleships em cada 
+                     # passo da simulação
+
+-----------------------------------------------------------------------------
+Python 3.3.0 (default, Sep 29 2012, 17:14:58) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Digite o nome do arquivo: s.txt
+Opção [s]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Saturno
+  Cor              = green
+  Posição          = (0.00,0.00)
+  Massa            =  5.68e+26
+  Raio             =  60268
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-150000.00,0.00)
+  Velocidade          = (0.00,66000.00)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (150000.00,0.00)
+  Velocidade          = (0.00,-66000.00)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Tempo máximo de simulação       =       0.02 horas
+  Intervalo de tempo da simulação =      0.001 horas
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Tecle ENTER para continuar.
+
+**********************************************************
+Início da simulação
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Saturno
+  Cor              = green
+  Posição          = (0.00,0.00)
+  Massa            =  5.68e+26
+  Raio             =  60268
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.000 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-150000.00,0.00)
+  Velocidade          = (0.00,66000.00)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (150000.00,0.00)
+  Velocidade          = (0.00,-66000.00)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.001 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.99,66.00)
+  Velocidade          = (21.84,66000.00)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.99,-66.00)
+  Velocidade          = (-21.84,-66000.00)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.002 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.96,132.00)
+  Velocidade          = (43.67,65999.99)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.96,-132.00)
+  Velocidade          = (-43.67,-65999.99)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.003 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.90,198.00)
+  Velocidade          = (65.51,65999.97)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.90,-198.00)
+  Velocidade          = (-65.51,-65999.97)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.004 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.83,264.00)
+  Velocidade          = (87.35,65999.94)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.83,-264.00)
+  Velocidade          = (-87.35,-65999.94)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.005 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.73,330.00)
+  Velocidade          = (109.18,65999.90)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.73,-330.00)
+  Velocidade          = (-109.18,-65999.90)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.006 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.61,396.00)
+  Velocidade          = (131.02,65999.86)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.61,-396.00)
+  Velocidade          = (-131.02,-65999.86)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.007 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.47,462.00)
+  Velocidade          = (152.85,65999.80)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.47,-462.00)
+  Velocidade          = (-152.85,-65999.80)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.008 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.30,528.00)
+  Velocidade          = (174.69,65999.73)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.30,-528.00)
+  Velocidade          = (-174.69,-65999.73)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.009 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149999.12,594.00)
+  Velocidade          = (196.53,65999.65)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149999.12,-594.00)
+  Velocidade          = (-196.53,-65999.65)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.010 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149998.91,660.00)
+  Velocidade          = (218.36,65999.57)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149998.91,-660.00)
+  Velocidade          = (-218.36,-65999.57)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.011 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149998.68,726.00)
+  Velocidade          = (240.20,65999.47)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149998.68,-726.00)
+  Velocidade          = (-240.20,-65999.47)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.012 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149998.43,792.00)
+  Velocidade          = (262.04,65999.37)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149998.43,-792.00)
+  Velocidade          = (-262.04,-65999.37)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.013 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149998.15,858.00)
+  Velocidade          = (283.87,65999.25)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149998.15,-858.00)
+  Velocidade          = (-283.87,-65999.25)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.014 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149997.86,924.00)
+  Velocidade          = (305.71,65999.13)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149997.86,-924.00)
+  Velocidade          = (-305.71,-65999.13)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.015 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149997.54,990.00)
+  Velocidade          = (327.54,65998.99)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149997.54,-990.00)
+  Velocidade          = (-327.54,-65998.99)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.016 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149997.20,1055.99)
+  Velocidade          = (349.38,65998.85)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149997.20,-1055.99)
+  Velocidade          = (-349.38,-65998.85)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.017 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149996.84,1121.99)
+  Velocidade          = (371.21,65998.69)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149996.84,-1121.99)
+  Velocidade          = (-371.21,-65998.69)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.018 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149996.46,1187.99)
+  Velocidade          = (393.05,65998.53)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149996.46,-1187.99)
+  Velocidade          = (-393.05,-65998.53)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.019 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149996.06,1253.99)
+  Velocidade          = (414.89,65998.36)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149996.06,-1253.99)
+  Velocidade          = (-414.89,-65998.36)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+
+--------------------------------------------------------
+  Tempo de simulação   =      0.020 horas
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Donatello
+  Cor                 = magenta
+  Posição             = (-149995.63,1319.99)
+  Velocidade          = (436.72,65998.17)
+  Ativa               = True
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome da turtleship  = Raphael
+  Cor                 = red
+  Posição             = (149995.63,-1319.99)
+  Velocidade          = (-436.72,-65998.17)
+  Ativa               = True
+Tecle ENTER para continuar.
+
+Fim da simulação
+
+**********************************************************
+
+Tecle ENTER para continuar.
+
+
+Fim do processamento
+
+>>> 
+
+
+

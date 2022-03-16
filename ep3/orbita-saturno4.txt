@@ -1,0 +1,11 @@
+s
+1
+      0       0  5.68e+26  60268    green    Saturno
+
+4
+-150000       0       0   66000    magenta  Donatello
+ 150000       0       0  -66000        red  Raphael
+      0  150000  -66000       0       blue  Leonardo
+      0 -150000   66000       0     orange  Michelangelo
+    
+1000          0.001

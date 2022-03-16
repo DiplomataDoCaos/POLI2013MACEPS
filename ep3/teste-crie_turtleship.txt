@@ -1,0 +1,91 @@
+Este teste foi gerado no Python Shell do IDLE
+após executar o ep3.py com a opção TESTE_FUNÇÕES = True
+
+# CONSTANTE que deve ser True enquanto as funções: 
+#      - crie_turtleship;                                   
+#      - crie_lista_turtleships;                            
+#      - atualize_turtleship; e                              
+#      - houve_colisão.
+# estiverem sendo testadas através do Python Shell
+TESTE_FUNÇÕES = True  # True faz com que a execução do programa 
+                      # seja encerrada antes da leitura do arquivo.
+                      # Desta forma quando o programa estiver sendo 
+                      # executado no Idle as funções poderão ser
+                      # chamadas uma a uma através do Python Shell
+                     
+----------------------------------------------------------------------------
+Python 3.3.0 (default, Sep 29 2012, 17:17:45) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+>>> crie_turtleship(["-100000","0","4000","-66000","red","Raphael"],0)
+([[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True], 6)
+>>>
+>>> crie_turtleship(["100000","0","0","66000","blue","Leonardo"],0)
+([[100000.0, 0.0], [0.0, 66000.0], 'blue', 'Leonardo', True], 6)
+>>>
+>>> rafael, i = crie_turtleship(["-100000","0","4000","-66000","red","Raphael"],0)
+>>> i
+6
+>>> rafael
+[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True]
+>>> rafael[0]
+[-100000.0, 0.0]
+>>> rafael[0][0]
+-100000.0
+>>> rafael[0][1]
+0.0
+>>> rafael[0][2]
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    rafael[0][2]
+IndexError: list index out of range
+>>> rafael[1]
+[4000.0, -66000.0]
+>>> rafael[1][0]
+4000.0
+>>> rafael[2]
+'red'
+>>> rafael[3]
+'Raphael'
+>>> rafael[4]
+True
+>>> rafael[5]
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    rafael[5]
+IndexError: list index out of range
+>>>
+>>> leo, k = crie_turtleship(["100000","0","0","66000","blue","Leonardo"],0)
+>>> k
+6
+>>> leo
+[[100000.0, 0.0], [0.0, 66000.0], 'blue', 'Leonardo', True]
+>>> leo[0]
+[100000.0, 0.0]
+>>> leo[0]
+[100000.0, 0.0]
+>>> leo[0][0]
+100000.0
+>>> leo[1]
+[0.0, 66000.0]
+>>> leo[1][1]
+66000.0
+>>> leo[1][2]
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    leo[1][2]
+IndexError: list index out of range
+>>> leo[2]
+'blue'
+>>> leo[3]
+'Leonardo'
+>>> leo[4]
+True
+>>> leo[5]
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    leo[5]
+IndexError: list index out of range
+>>> 

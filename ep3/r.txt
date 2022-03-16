@@ -1,0 +1,47 @@
+r
+0
+192200  0
+
+r
+1
+0       0       5.97e+24  6378  blue  Terra 
+192200  0
+
+r
+2
+0       0       5.97e+24  6378  blue  Terra 
+384400  0       7.35e+22  1738  green Lua
+192200  0
+
+r
+2
+0         0      8e+22  0 cinza Bla
+100000    0      5e+21  0 xxxxx XXX
+80000     0
+
+r
+2
+0       0  3e+23 2429 magenta Mercurio
+200000  0  3e+23 2429 magenta Mercurio
+100000  0
+
+r
+3
+0            0  5.97e+24  6378  blue  Terra 
+384400       0  7.35e+22  1738  green Lua
+200000  200000  3e+23 2429 magenta Mercurio
+192200       0
+
+r
+4
+0            0  5.97e+24  6378   blue    Terra 
+384400       0  7.35e+22  1738   green   Lua
+200000  200000  3e+23     2429   magenta Mercurio
+-50000 -150000  5.68e+26  60268  green   Saturno
+100000   70000
+
+
+
+
+
+

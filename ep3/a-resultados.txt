@@ -1,0 +1,134 @@
+Digite o nome do arquivo: ../testes/a.txt
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (300000.00,300000.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-20.29,-20.29)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (6563.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-119890.74,-0.00)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (0.00,6563.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-0.00,-119890.74)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (30000.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-5737.83,-0.00)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (90000.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-637.54,-0.00)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (180000.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-159.38,-0.00)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (300000.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-57.38,-0.00)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (-300000.00,-300000.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (20.29,20.29)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (-300000.00,300000.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (20.29,-20.29)
+Tecle ENTER para continuar.
+
+Opção [a]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (300000.00,-300000.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-20.29,20.29)
+Tecle ENTER para continuar.
+
+
+Fim do processamento
+

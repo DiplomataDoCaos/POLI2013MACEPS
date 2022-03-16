@@ -1,0 +1,8 @@
+s
+1
+      0       0  5.68e+26  60268   green  Saturno
+
+1
+-150000       0         0  66000   blue  Leonardo
+
+1000          0.001

@@ -1,0 +1,137 @@
+Digite o nome do arquivo: r.txt
+Opção [r]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (192200.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (0.00,0.00)
+Tecle ENTER para continuar.
+
+Opção [r]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (192200.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-139.79,0.00)
+Tecle ENTER para continuar.
+
+Opção [r]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Lua
+  Cor              = green
+  Posição          = (384400.00,0.00)
+  Massa            =  7.35e+22
+  Raio             =  1738
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (192200.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-138.07,0.00)
+Tecle ENTER para continuar.
+
+Opção [r]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Bla
+  Cor              = cinza
+  Posição          = (0.00,0.00)
+  Massa            =  8.00e+22
+  Raio             =  00
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = XXX
+  Cor              = xxxxx
+  Posição          = (100000.00,0.00)
+  Massa            =  5.00e+21
+  Raio             =  00
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (80000.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (0.00,0.00)
+Tecle ENTER para continuar.
+
+Opção [r]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Mercurio
+  Cor              = magenta
+  Posição          = (0.00,0.00)
+  Massa            =  3.00e+23
+  Raio             =  2429
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Mercurio
+  Cor              = magenta
+  Posição          = (200000.00,0.00)
+  Massa            =  3.00e+23
+  Raio             =  2429
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (100000.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (0.00,0.00)
+Tecle ENTER para continuar.
+
+Opção [r]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Lua
+  Cor              = green
+  Posição          = (384400.00,0.00)
+  Massa            =  7.35e+22
+  Raio             =  1738
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Mercurio
+  Cor              = magenta
+  Posição          = (200000.00,200000.00)
+  Massa            =  3.00e+23
+  Raio             =  2429
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (192200.00,0.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-137.82,6.47)
+Tecle ENTER para continuar.
+
+Opção [r]:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Terra
+  Cor              = blue
+  Posição          = (0.00,0.00)
+  Massa            =  5.97e+24
+  Raio             =  6378
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Lua
+  Cor              = green
+  Posição          = (384400.00,0.00)
+  Massa            =  7.35e+22
+  Raio             =  1738
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Mercurio
+  Cor              = magenta
+  Posição          = (200000.00,200000.00)
+  Massa            =  3.00e+23
+  Raio             =  2429
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Nome do astro    = Saturno
+  Cor              = green
+  Posição          = (-50000.00,-150000.00)
+  Massa            =  5.68e+26
+  Raio             =  60268
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Posição do ponto = (100000.00,70000.00)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Aceleração       = (-4181.12,-5916.84)
+Tecle ENTER para continuar.
+
+
+Fim do processamento
+

@@ -1,0 +1,122 @@
+﻿Este teste foi gerado no Python Shell do IDLE
+apÃ³s executar o ep3.py com a opÃ§Ã£o TESTE_FUNÃ‡Ã•ES = True
+
+# CONSTANTE que deve ser True enquanto as funÃ§Ãµes: 
+#      - crie_turtleship;                                   
+#      - crie_lista_turtleships;                            
+#      - atualize_turtleship; e                              
+#      - houve_colisÃ£o.
+# estiverem sendo testadas atravÃ©s do Python Shell
+TESTE_FUNÃ‡Ã•ES = True  # True faz com que a execuÃ§Ã£o do programa 
+                      # seja encerrada antes da leitura do arquivo.
+                      # Desta forma quando o programa estiver sendo 
+                      # executado no Idle as funÃ§Ãµes poderÃ£o ser
+                      # chamadas uma a uma atravÃ©s do Python Shell
+
+-----------------------------------------------------------------------------
+TESTE 1
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Python 3.3.0 (default, Sep 29 2012, 17:17:45) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+>>> lua, j = crie_astro(["0","0","7.35e+22","1738","green","Lua"],0)
+>>> lua
+[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua']
+>>> lista_astros = [lua]
+>>> lista_astros
+[[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua']]
+>>>
+>>> rafa, k =  crie_turtleship(["200","0","4000","-66000","red","Raphael"],0)
+>>> rafa
+[[200.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True]
+>>>
+>>> houve_colisão(rafa,lista_astros)
+ATENÃ‡ÃƒO: Mensagem urgente da frota estrelar:
+A turtleship Raphael (cor red) colidiu com o astro Lua (cor green)
+True
+>>>
+>>> leo, k = crie_turtleship(["1229","1229","1","2","blue","Leonardo"],0)
+>>> lelo
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    lelo
+NameError: name 'lelo' is not defined
+>>>
+>>> leo
+[[1229.0, 1229.0], [1.0, 2.0], 'blue', 'Leonardo', True]
+>>>
+>>> houve_colisão(leo,lista_astros)
+False
+>>>
+>>> leo, k = crie_turtleship(["1228","1228","1","2","blue","Leonardo"],0)
+>>> leo
+[[1228.0, 1228.0], [1.0, 2.0], 'blue', 'Leonardo', True]
+>>>
+>>> houve_colisão(leo,lista_astros)
+ATENÃ‡ÃƒO: Mensagem urgente da frota estrelar:
+A turtleship Leonardo (cor blue) colidiu com o astro Lua (cor green)
+True
+>>> 
+
+-----------------------------------------------------------------------------
+TESTE 1
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Python 3.3.0 (default, Sep 29 2012, 17:17:45) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+>>> lista_astros,i = crie_lista_astros(["0","0","7.35e+22","1738","green","Lua","0","-192200","6.41e+23","3396","red","Marte"],0,2)
+>>> lista_astros
+[[[0.0, 0.0], 7.35e+22, 1738.0, 'green', 'Lua'], [[0.0, -192200.0], 6.41e+23, 3396.0, 'red', 'Marte']]
+>>>
+>>> leo, k = crie_turtleship(["1228","1228","1","2","blue","Leonardo"],0)
+>>> leo
+[[1228.0, 1228.0], [1.0, 2.0], 'blue', 'Leonardo', True]
+>>>
+>>> houve_colisão(leo,lista_astros)
+ATENÃ‡ÃƒO: Mensagem urgente da frota estrelar:
+A turtleship Leonardo (cor blue) colidiu com o astro Lua (cor green)
+True
+>>>
+>>> rafa, i = crie_turtleship(["100","-180000","4000","660","red","Raphael"],0)
+>>> rafa
+[[100.0, -180000.0], [4000.0, 660.0], 'red', 'Raphael', True]
+>>>
+>>> houve_colisão(rafa,lista_astros)
+False
+>>>
+>>> rafa, i = crie_turtleship(["100","-170000","4000","660","red","Raphael"],0)
+>>> rafa
+[[100.0, -170000.0], [4000.0, 660.0], 'red', 'Raphael', True]
+>>>
+>>> houve_colisão(rafa,lista_astros)
+False
+>>>
+>>> rafa, i = crie_turtleship(["100","-190000","4000","660","red","Raphael"],0)
+>>> rafa
+[[100.0, -190000.0], [4000.0, 660.0], 'red', 'Raphael', True]
+>>> 
+>>> houve_colisão(rafa,lista_astros)
+ATENÃ‡ÃƒO: Mensagem urgente da frota estrelar:
+A turtleship Raphael (cor red) colidiu com o astro Marte (cor red)
+True
+>>>
+>>> donato, k = crie_turtleship(["-1228","-1228","0","0","magenta","Donatello"],0)
+>>> donato
+[[-1228.0, -1228.0], [0.0, 0.0], 'magenta', 'Donatello', True]
+>>> houve_colisão(donato,lista_astros)
+ATENÃ‡ÃƒO: Mensagem urgente da frota estrelar:
+A turtleship Donatello (cor magenta) colidiu com o astro Lua (cor green)
+True
+>>>
+>>> michel, k = crie_turtleship(["-1229","-1229","0","0","orange","Michelangelo"],0)
+>>> michel
+[[-1229.0, -1229.0], [0.0, 0.0], 'orange', 'Michelangelo', True]
+>>> houve_colisão(michel,lista_astros)
+False
+>>>

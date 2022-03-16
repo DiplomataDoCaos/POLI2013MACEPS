@@ -1,0 +1,118 @@
+Este teste foi gerado no Python Shell do IDLE
+após executar o ep3.py com a opção TESTE_FUNÇÕES = True
+
+# CONSTANTE que deve ser True enquanto as funções: 
+#      - crie_turtleship;                                   
+#      - crie_lista_turtleships;                            
+#      - atualize_turtleship; e                              
+#      - houve_colisão.
+# estiverem sendo testadas através do Python Shell
+TESTE_FUNÇÕES = True  # True faz com que a execução do programa 
+                      # seja encerrada antes da leitura do arquivo.
+                      # Desta forma quando o programa estiver sendo 
+                      # executado no Idle as funções poderão ser
+                      # chamadas uma a uma através do Python Shell
+                     
+----------------------------------------------------------------------------
+Python 3.3.0 (default, Sep 29 2012, 17:17:45) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+Python 3.3.0 (default, Sep 29 2012, 17:17:45) 
+[GCC 4.7.2] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+>>> crie_lista_turtleships(["-100000","0","4000","-66000","red","Raphael"],0,1)
+([[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True]], 6)
+>>>
+>>> lista_t, i = crie_lista_turtleships(["-100000","0","4000","-66000","red","Raphael"],0,1)
+>>> i
+6
+>>> lista_t
+[[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True]]
+>>> lista_t[0]
+[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True]
+>>> lista_t[1]
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    lista_t[1]
+IndexError: list index out of range
+>>> lista_t[0][0]
+[-100000.0, 0.0]
+>>> lista_t[0][0][0]
+-100000.0
+>>> lista_t[0][0][1]
+0.0
+>>> lista_t[0][0][2]
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    lista_t[0][0][2]
+IndexError: list index out of range
+>>> lista_t[1]
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    lista_t[1]
+IndexError: list index out of range
+>>> lista_t[0][1]
+[4000.0, -66000.0]
+>>> lista_t[0][1][0]
+4000.0
+>>> lista_t[0][1][1]
+-66000.0
+>>> lista_t[0][2]
+'red'
+>>> lista_t[0][3]
+'Raphael'
+>>> lista_t[0][4]
+True
+>>> lista_t[0][5]
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    lista_t[0][5]
+IndexError: list index out of range
+>>>
+>>> crie_lista_turtleships(["-100000","0","4000","-66000","red","Raphael",
+			"100000","0","0","66000","blue","Leonardo"],0,2)
+([[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True], [[100000.0, 0.0], [0.0, 66000.0], 'blue', 'Leonardo', True]], 12)
+>>>
+>>> lista_t, j = crie_lista_turtleships(["-100000","0","4000","-66000","red","Raphael",
+			"100000","0","0","66000","blue","Leonardo"],0,2)
+>>> j
+12
+>>> listat
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    listat
+NameError: name 'listat' is not defined
+>>> lista_t
+[[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True], [[100000.0, 0.0], [0.0, 66000.0], 'blue', 'Leonardo', True]]
+>>> lista_t[0]
+[[-100000.0, 0.0], [4000.0, -66000.0], 'red', 'Raphael', True]
+>>> lista_t[1]
+[[100000.0, 0.0], [0.0, 66000.0], 'blue', 'Leonardo', True]
+>>> lista_t[1][0]
+[100000.0, 0.0]
+>>> lista_t[1][0][0]
+100000.0
+>>> lista_t[1][1]
+[0.0, 66000.0]
+>>> lista_t[1][1][1]
+66000.0
+>>> lista_t[1][1][2]
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    lista_t[1][1][2]
+IndexError: list index out of range
+>>> lista_t[1][2]
+'blue'
+>>> lista_t[1][3]
+'Leonardo'
+>>> lista_t[1][4]
+True
+>>> lista_t[1][5]
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    lista_t[1][5]
+IndexError: list index out of range
+>>> 
